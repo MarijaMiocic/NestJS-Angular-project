@@ -1,1 +1,12 @@
-<p>recipe-list works!</p>
+<div class="recipe-list">
+    <h2>Popular Recipes</h2>
+    <div class="recipe-card" *ngFor="let recipe of recipes">
+      <h3>{{ recipe.title }}</h3>
+      <p>{{ recipe.description }}</p>
+      <h4>Ingredients:</h4>
+      <ul>
+        <li *ngFor="let ingredient of recipe.ingredients">{{ ingredient }}</li>
+      </ul>
+    </div>
+  </div>
+  

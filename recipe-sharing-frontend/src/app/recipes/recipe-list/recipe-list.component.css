@@ -1,0 +1,21 @@
+.recipe-list {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .recipe-card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-card h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .recipe-card h4 {
+    margin: 10px 0 5px 0;
+  }
+  

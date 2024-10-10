@@ -14,7 +14,7 @@ h1, h2, h3 {
 
 h1 {
     text-align: center; /* Centriranje naslova */
-    font-size: 3.5em; /* Veća veličina fonta za isticanje */
+    font-size: 4.5em; /* Veća veličina fonta za isticanje */
     color: #C2185B; /* Tamnija boja za kontrast */
     margin-bottom: 40px; /* Dodan veći razmak ispod naslova */
     line-height: 2; /* Povećan razmak između redaka */
@@ -110,6 +110,11 @@ button {
 .comment-button:hover {
     background-color: #27AE60; /* Tamnija zelena */
 }
+
+.footer {
+    text-align: center; /* Centriranje teksta */
+}
+
 
 /* Responsive prilagodbe */
 @media (max-width: 768px) {

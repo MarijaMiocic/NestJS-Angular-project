@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { InMemoryDbService, InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { User } from './models/user';
+import { Recipe } from './models/recipe';
 
 @Injectable({
   providedIn: 'root',
@@ -8,9 +10,10 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const users = [
       { id: 1, username: 'testuser', email: 'test@test.com', password: '123456' },
+      { id: 2, username: 'testuser2', email: 'test2@test.com', password: '1234567' },
     ];
 
-    const recipes = [
+    const recipes: Recipe[] = [
       { 
         id: 1, 
         title: 'Spaghetti Bolognese', 
