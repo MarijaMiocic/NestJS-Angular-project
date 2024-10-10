@@ -1,0 +1,50 @@
+.register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: var(--primary-color);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text-color);
+  }
+  
+  input.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+  }
+  
+  button.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button.btn-primary:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
